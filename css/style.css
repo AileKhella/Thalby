@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*header*/
+header .logo {
+    position: absolute;
+    left: calc(50% - 40px);
+    top: 16px;
+}
+
+header .container{
+    max-width: 1064px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+   }
+header .container ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    }
+
+.main_nav ul li{
+    margin-right:28px;
+   }
+.main_nav li a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #1C1B1B;
+   }
+header .container ul li{
+    margin-left: 16px;
+}
+header .container .compl_nav li:nth-child(3){
+    margin-left:7px;
+}
+
+/*Section1 humanity */
+.humanity{
+    background-color: #F0EFEB;
+    position: relative;
+}
+.humanity .container img{
+    position: absolute;
+    right:5%;
+    top: 9px;
+   }
+
+.humanity .container{
+    max-width: 1064px;
+    margin:auto;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.humanity .container h1{
+    max-width: 374px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 42px;
+}
+.humanity .container p{
+    max-width: 481px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+.humanity .container a{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: #000000;
+    border-radius: 100px;
+    height: 36px;
+    padding: 8px 23px;
+    text-align: center;
+}
+
+/*Section2*/
+.guides_explain .container{
+    padding: 60px 0;
+    margin: auto;
+    text-align: center;
+    color: #000000;
+}
+.guides_explain h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 27px;
+    text-align: center;
+}
+.guides_explain p{
+    max-width: 650px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 47px;
+}
+.guides_explain a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    text-align: center;
+}
