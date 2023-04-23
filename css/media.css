@@ -1,0 +1,190 @@
+@media only screen and (max-width: 1160px){
+    .humanity .container img{
+        position: absolute;
+        right:5%;
+        top: 9px;
+        width: 50%;
+    }
+    /*.best_sellers .container{*/
+    /*    max-width: 1000px;*/
+    /*}*/
+    /*.owl-carousel.owl-drag .owl-item{*/
+    /*    width: 346px!important;*/
+    /*}*/
+    .owl-carousel .owl-nav button.owl-prev{
+        right: -20px;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+        left: -20px;
+    }
+
+}
+@media only screen and (max-width: 1070px) {
+    .humanity .container {
+      padding-left: 15px;
+    }
+
+}
+@media only screen and (max-width: 1048px) {
+    .owl-carousel .owl-nav {
+        display: none;
+    }
+    .humanity .container h1{
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .humanity .container p {
+        max-width: 400px;
+        font-size: 20px;
+    }
+
+    .best_sellers .container h3 {
+        font-weight: 600;
+        font-size: 36px;
+    }
+    .people_society .container h4{
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .people_society .container p{
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 35px;
+        padding-right: 15px;
+    }
+
+
+}
+@media only screen and (max-width: 1000px) {
+        .owl-carousel .owl-nav{
+            display: none;
+        }
+        /*.best_sellers .container{*/
+        /*    max-width: 900px;*/
+        /*}*/
+        /*.owl-carousel.owl-drag .owl-item{*/
+        /*    width: 346px!important;*/
+        /*}*/
+
+}
+@media only screen and (max-width: 835px) {
+    .humanity .container h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .humanity .container p {
+        max-width: 350px;
+        }
+    .guides_explain h3{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 42px;}
+
+    .people_society .container p{
+        font-size: 26px;
+        line-height: 30px;
+        padding-right: 15px;
+    }
+    .people_society img{
+        margin: auto;
+        max-width: 260px;    }
+}
+@media only screen and (max-width: 769px){
+    .people_society img{
+        margin: auto;
+        max-width: 250px;    }
+    .main_nav ul li{
+        margin-right:15px;
+    }
+    .main_nav li a{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .people_society .container {
+        padding-top: 50px;
+    }
+    .p_s_descr{
+        max-width: 450px;
+        padding-top: 30px;
+    }
+    .people_society .container p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .people_society .container a{
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .people_society .container h4{
+        font-weight: 550;
+    }
+    .best_sellers .container h3 {
+        font-weight: 550;
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width: 429px){
+    header .container nav {
+       display: none;
+    }
+    .humanity .container img{
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+    .humanity .container{
+        max-width: 450px;
+        margin:auto;
+        padding: 20px 15px;
+        text-align: center;
+
+    }
+    .humanity .container p{
+        max-width: 450px;
+    }
+    .guides_explain .container{
+        padding: 30px 15px;
+    }
+    .best_sellers .container{
+        padding-bottom: 30px;
+    }
+    .best_sellers .container h3{
+        font-weight: 550;
+        font-size: 30px;
+    }
+    .best_sellers .container{
+        max-width: 450px;
+        margin: auto;
+        padding: 30px 15px;
+          }
+    .people_society .container{
+        max-width: 450px;
+        margin: auto;
+        padding: 30px 15px;
+        flex-direction: column;
+    }
+    .people_society img{
+      max-width: 315px;
+    }
+    .p_s_descr{
+        margin:auto;
+        text-align: center;
+    }
+
+    .thalby_guide h5{
+        max-width: 382px;
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .thalby_guide p{
+       font-size: 20px;
+    }
+    .thalby_guide a{
+        font-size: 20px;
+    }
+    .people_society .container a{
+         font-size: 20px;
+    }
+}

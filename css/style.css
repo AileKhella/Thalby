@@ -121,13 +121,14 @@ header .container .compl_nav li:nth-child(3){
     line-height: 23px;
     color: #000000;
     text-align: center;
+    display: inline-block;
 }
 /*Section3 best sellers*/
 
 .best_sellers .container{
     max-width: 1062px;
     padding-top: 28px;
-    padding-bottom:248px;
+    padding-bottom:148px;
     margin: auto;
     text-align: center;
     color: #000000;
@@ -140,11 +141,13 @@ header .container .compl_nav li:nth-child(3){
     text-align: center;
 }
 .thalby_guide{
+    margin:auto;
     max-width: 315px;
     font-size: 17px;
     line-height: 20px;
     text-align: center;
     color: #000000;
+
     }
 .thalby_guide img{
     width: 100%;
@@ -166,23 +169,112 @@ header .container .compl_nav li:nth-child(3){
     font-weight: 700;
     text-decoration-line: underline;
     color: #000000;
+    display: inline-block;
    }
+/*Carousel*/
+.owl-carousel.owl-loaded.owl-drag{
+    max-width: 1058px;
+   }
+.owl-carousel .owl-item{
+    float: none!important;
+    justify-items: center!important;
+}
+.owl-carousel .owl-stage{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.owl-dots .owl-dot span{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 20px;
+    background-color: #E5E5E5;
+    border:solid 4px #D399FF;
+}
+.owl-dots .owl-dot.active span{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 20px;
+    background-color: #D399FF;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    right: -40px;
+    top: 220px;
+    height: 30px;
+    width: 30px;
+    background-color: #D399FF!important;
+    border-radius: 50%;
+    background-position: center;
+    background-image: url("/images/chevronleft.png") !important;
+    background-size: contain;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    left: -40px;
+    top: 220px;
+    height: 30px;
+    width: 30px;
+    background-color: #D399FF!important;
+    border-radius: 50%;
+    background-position: center;
+    background-image: url("/images/chevronright.png") !important;
+    background-size: contain;
+}
 
 /*Section4 people society*/
-.people_society{
+.people_society {
     background-color: rgba(204, 204, 204, 0.3);
 }
 .people_society .container {
     max-width: 1064px;
     margin:auto;
-    padding-top: 146px;
-    padding-bottom: 120px;
+    padding-top: 76px;
+    padding-bottom: 51px;
+    display: flex;
+
+    }
+.people_society img{
+    margin: auto;
+    /*max-height: 585px;*/
+}
+.p_s_descr{
+    max-width: 532px;
+    padding-top: 70px;
+}
+
+.people_society .container h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 31px;
 
 }
-.people_society .container img{
-    max-width: 385px;
-    max-height: 525px;
-
+.people_society .container p{
+    max-width: 500px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 40px;
+}
+.people_society .container a{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    color: #000000;
+    display: inline-block;
 
 }
+
+
 
