@@ -204,7 +204,7 @@ header .container .compl_nav li:nth-child(3){
     background-color: #D399FF;
 }
 
-.owl-carousel .owl-nav button.owl-prev {
+.owl-carousel .owl-nav .owl-prev {
     position: absolute;
     right: -40px;
     top: 220px;
@@ -212,12 +212,11 @@ header .container .compl_nav li:nth-child(3){
     width: 30px;
     background-color: #D399FF!important;
     border-radius: 50%;
-    background-position: center;
-    background-image: url("/images/chevronleft.png") !important;
-    background-size: contain;
+    background-image: url("/images/chevronleft.png")!important;
+    background-size: cover!important;
 }
 
-.owl-carousel .owl-nav button.owl-next{
+.owl-carousel .owl-nav .owl-next{
     position: absolute;
     left: -40px;
     top: 220px;
@@ -225,9 +224,8 @@ header .container .compl_nav li:nth-child(3){
     width: 30px;
     background-color: #D399FF!important;
     border-radius: 50%;
-    background-position: center;
-    background-image: url("/images/chevronright.png") !important;
-    background-size: contain;
+    background-image: url("/images/chevronright.png")!important;
+    background-size: cover!important;
 }
 
 /*Section4 people society*/
