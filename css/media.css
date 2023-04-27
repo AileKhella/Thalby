@@ -83,7 +83,10 @@
         margin: auto;
         max-width: 260px;    }
 }
-@media only screen and (max-width: 769px){
+@media only screen and (max-width: 769px) {
+    header nav a {
+        display: inline-block;
+    }
     .people_society img{
         margin: auto;
         max-width: 250px;    }
@@ -117,6 +120,7 @@
         font-weight: 550;
         font-size: 36px;
     }
+
 }
 @media only screen and (max-width: 429px){
     /*header .container nav {*/

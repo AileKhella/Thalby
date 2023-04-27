@@ -6,44 +6,8 @@
   height:3px;
 }
 
-// Animate the top bar on hover
-@keyframes menu-hover-top-over {
-  0% {
-    transform: translateY(0);
-  }
-  50%{
-    transform: translateY(8px);
-  }
-  100%{
-    transform: translateY(0);
-  }
-}
 
-// Animate the bottom bar on hover
-@keyframes menu-hover-bottom-over {
-  0% {
-    transform: translateY(0);
-  }
-  50%{
-    transform: translateY(-8px);
-  }
-  100%{
-    transform: translateY(0);
-  }
-}
 
-// Animate the top bar on hover-OUT
-@keyframes menu-load-state-top{
-  0% {
-    transform: translateY(0);
-  }
-  50%{
-    transform: translateY(8px);
-  }
-  100%{
-    transform: translateY(0);
-  }
-}
 
 // Animate the bottom bar on hover-OUT
 @keyframes menu-load-state-bottom{
@@ -93,14 +57,13 @@
 
   }
 }
-
-body{
+nav{
   font-family: 'Roboto', sans-serif;
   color:black;
   a{
     color:black;
     text-decoration:none;
-    max-width: 100px;
+    max-width: 30px;
   }
 }
 
@@ -219,6 +182,5 @@ body{
     font-size: 30px;
     line-height: 80px;
     z-index: 2;
-
   }
 }

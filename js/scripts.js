@@ -20,5 +20,5 @@ $(document).ready(function(){
 });
 
 $(".button").click(function(){
-    $(this).closest("body").toggleClass("active");
+    $(this).closest("nav").toggleClass("active");
 });

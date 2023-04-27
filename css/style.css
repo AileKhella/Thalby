@@ -25,17 +25,17 @@ header .container ul{
     align-items: center;
     }
 
-/*.main_nav ul li{*/
-/*    margin-right:28px;*/
-/*   }*/
-/*.main_nav li a{*/
-/*    text-decoration: none;*/
-/*    font-weight: 700;*/
-/*    font-size: 16px;*/
-/*    line-height: 40px;*/
-/*    color: #1C1B1B;*/
-/*    display: inline-block;*/
-/*   }*/
+.main_nav ul li{
+    margin-right:28px;
+   }
+.main_nav li a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #1C1B1B;
+    display: inline-block;
+   }
 
 header .container ul li{
     margin-left: 16px;
@@ -78,7 +78,6 @@ header .container .compl_nav li:nth-child(3){
     margin-bottom: 26px;
 }
 .humanity .container a{
-    max-width: 100px;
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
@@ -231,28 +230,27 @@ header .container .compl_nav li:nth-child(3){
     background-size: cover!important;
 }
 
-/*Section4 people society*/
+/*Section 4,5,6 */
 .people_society {
     background-color: rgba(204, 204, 204, 0.3);
 }
-.people_society .container {
+.people_society .container, .culture_heritage .container, .power_politics .container{
     max-width: 1064px;
     margin:auto;
     padding-top: 76px;
     padding-bottom: 51px;
     display: flex;
-
     }
-.people_society img{
-    margin: auto;
-    /*max-height: 585px;*/
+.people_society img, .culture_heritage img, .power_politics img {
+    max-width: 400px;
+   width: 50%;
 }
-.p_s_descr{
+.p_s_descr, .p_p_descr{
     max-width: 532px;
-    padding-top: 70px;
+    margin: auto;
 }
 
-.people_society .container h4{
+.people_society .container h4, .c_h_descr h4, .p_p_descr h4{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -260,22 +258,222 @@ header .container .compl_nav li:nth-child(3){
     margin-bottom: 31px;
 
 }
-.people_society .container p{
+.people_society .container p, .c_h_descr p, .p_p_descr p{
     max-width: 500px;
+    font-style: normal;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
     margin-bottom: 40px;
 }
-.people_society .container a{
+.people_society .container a, .c_h_descr a, .p_p_descr a{
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
     text-decoration-line: underline;
     color: #000000;
     display: inline-block;
+}
+
+.culture_heritage{
+    background-color: rgba(204, 204, 204, 0.6);
+}
+.c_h_descr{
+    max-width: 532px;
+    margin: auto;
+    text-align: right;
+}
+.power_politics{
+    background-color: rgba(204, 204, 204, 0.3)
+}
+/* Section 7 some_features*/
+.some_features .container{
+    padding: 190px 0 110px 0;
+    margin: auto;
+}
+.some_features .container h3{
+
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 165px;
+}
+.some_features .container .advantages{
+    max-width: 1088px;
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
 
 }
+.advantages li{
+    width: 339px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align:center;
+    list-style: none;
+    color: #000000;
+    position: relative;
+    margin-bottom: 206px;
+
+
+}
+.advantages li span{
+    position: absolute;
+    bottom: 150%;
+    left: 40%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #21F7EC;
+
+}
+.advantages li:nth-child(2) span{
+   background-color: #33D3BC;
+}
+.advantages li:nth-child(3) span{
+    background-color: #18A5C6;
+}
+.advantages li:nth-child(4) span{
+    background-color: #D38F62;
+}
+.advantages li:nth-child(5) span{
+    background-color: #F94C43;
+}
+.advantages li:nth-child(6) span{
+    background-color: #D399FF;
+}
+/*Section 8*/
+.voices{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(to bottom, white 50%, #F0F0F0 50%);
+}
+.voices .container{
+    max-width: 1064px ;
+    margin: auto;
+}
+.voices h3{
+    max-width: 705px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin: auto;
+}
+.voices .guides_as{
+    margin-top: 102px;
+    display: flex;
+    justify-content: space-around;
+}
+.guides_as .such_as{
+    max-width: 288px;
+    margin: auto;
+}
+.such_as img{
+    height: 351px;
+    width: 100%;
+    display: block;
+    margin-bottom: 35px;
+}
+.such_as h5{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.6px;
+    margin-bottom: 10px;
+    padding: 15px;
+ }
+.such_as p{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 14px;
+    padding: 15px;
+}
+.such_as a{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    display: inline-block;
+}
+
+/* Keep in touch*/
+.keep_touch{
+    padding: 80px 0;
+}
+.keep_touch .container{
+    max-width: 500px;
+    margin: auto;
+}
+.keep_touch .h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.keep_touch p{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.keep_touch form{
+    max-width: 396px;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.keep_touch form input{
+    width: 153px;
+    max-height: 40px;
+    box-sizing: border-box;
+    border: solid 1px rgba(0, 0, 0, 1);
+    padding: 12px 8px;
+    margin-bottom: 18px;
+
+}
+.keep_touch form input:nth-child(3){
+    width: 366px;
+}
+.keep_touch form button {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 8px 23px;
+    background-color: black;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    position: relative;
+    left: 125px;
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
