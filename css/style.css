@@ -396,6 +396,7 @@ header .container .compl_nav li:nth-child(3){
     text-align: center;
     margin-bottom: 14px;
     padding: 15px;
+
 }
 .such_as a{
     font-weight: 700;
@@ -404,18 +405,20 @@ header .container .compl_nav li:nth-child(3){
     text-align: center;
     text-decoration-line: underline;
     color: #000000;
-    display: inline-block;
+    display: block;
+
 }
 
 /* Keep in touch*/
 .keep_touch{
-    padding: 80px 0;
+    padding-bottom: 80px;
+    padding-top: 80px;
 }
 .keep_touch .container{
     max-width: 500px;
     margin: auto;
 }
-.keep_touch .h3{
+.keep_touch h3{
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -430,15 +433,14 @@ header .container .compl_nav li:nth-child(3){
     text-align: center;
     margin-bottom: 26px;
 }
-.keep_touch form{
-    max-width: 396px;
-    padding: 15px;
-
+.keep_touch .container .form{
+    max-width: 366px;
+    margin: 0 67px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.keep_touch form input{
+.keep_touch .form input{
     width: 153px;
     max-height: 40px;
     box-sizing: border-box;
@@ -447,10 +449,10 @@ header .container .compl_nav li:nth-child(3){
     margin-bottom: 18px;
 
 }
-.keep_touch form input:nth-child(3){
+.keep_touch .form input:nth-child(3){
     width: 366px;
 }
-.keep_touch form button {
+.keep_touch .form button {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
@@ -462,9 +464,95 @@ header .container .compl_nav li:nth-child(3){
     border-radius: 100px;
     position: relative;
     left: 125px;
+}
+/*footer*/
 
+footer{
+    background-color:  #020202;
+    padding: 50px 0 60px;
+    position: relative;
+}
+footer .container{
+    max-width: 1064px;
+    padding: 0 15px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 
 }
+footer .links{
+
+}
+.links .logo2{
+    max-width: 129px;
+    max-height: 41px;
+    margin-bottom: 45px;
+    display: block;
+}
+.links .logo2 img{
+    width: 100%;
+}
+.links ul{
+    display: flex;
+    list-style: none;
+}
+.links ul li{
+    margin-right: 22px;
+}
+.links ul li a{
+    max-height: 26px;
+    max-width: 26px;
+    display: block;
+}
+.links ul li a img{
+    width: 100%;
+ }
+
+footer .right{
+    min-width: 143px;
+    max-height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+footer .right ul{
+    color: #FFFFFF;
+    list-style: none;
+    margin-right: 72px;
+}
+footer .right ul li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 12px;
+}
+footer .right ul li:nth-child(1){
+    line-height: 23px;
+    margin-bottom: 36px;
+}
+footer .right ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer .right ul li address {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer time{
+    position: absolute;
+    bottom: 16px;
+    left:calc(50% - 60px);
+    max-width: 120px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+}
+
+
 
 
 
