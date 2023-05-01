@@ -64,4 +64,105 @@
     text-decoration:none;}
 }
 
+@media only screen and (max-width: 993px) {
+  .button {
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    /*display: none;*/
+    position: relative;
+    left: 15px;
+    top: 10px;
+    background: #D399FF;
+    /* Old browsers */
+    background: linear-gradient(135deg, #D399FF 0%, #F0F0F0 100%);
+    /* W3C */ }
+  .menu, .menu:before, .menu:after {
+    background: #000;
+    width: 30px;
+    height: 3px; }
+  .menu {
+    position: absolute;
+    top: 14px; }
+  .menu:before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    color: black;
+    animation: menu-load-state-top .5s; }
+  .menu:after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 0;
+    animation: menu-load-state-bottom .5s; }
+  .menu b {
+    opacity: 0;
+    top: -13px;
+    left: 2px;
+    font-size: .55em;
+    line-height: 1em;
+    position: relative;
+    transition: all 0.15s 0.15s ease-in;
+    transition-delay: .5s; }
+  .menu:hover {
+    background: transparent;
+    transition: all 0.15s 0s ease-out; }
+  .menu:hover:before {
+    animation: menu-hover-top-over .5s .5s forwards; }
+  .menu:hover:after {
+    animation: menu-hover-bottom-over .5s .5s forwards; }
+  .menu:hover b {
+    opacity: 1; }
+
+  .sub-menu {
+    font-weight: 300;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 30px 40px 30px 20px;
+    width: 300px;
+    max-height: none;
+    background: #D399FF;
+    /* Old browsers */
+    background: linear-gradient(to bottom, #D399FF 0%, #F0F0F0 100%);
+    /* W3C */
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: absolute;
+    top: 8px;
+    left: 65px;
+    transition: opacity 0.25s ease;
+    opacity: 0; }
+  .sub-menu li {
+    line-height: 70px;
+    border-bottom: 2px solid white; }
+  .sub-menu li:last-child {
+    border-bottom: none; }
+  .active .menu {
+    background: transparent; }
+  .active .menu:before {
+    top: -10px;
+    left: 5px;
+    animation: top-rot-in .5s forwards; }
+  .active .menu:after {
+    top: 10px;
+    left: 5px;
+    animation: bot-rot-in .5s forwards; }
+  .active .menu b {
+    opacity: 0;
+    transition: all 0.10s 0s ease-out; }
+  .active .sub-menu {
+    opacity: 1;
+    transition: opacity 0.25s ease;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    animation: menu-active-slide .25s;
+    background: #D399FF;
+    /* Old browsers */
+    background: linear-gradient(to bottom, #D399FF 0%, #F0F0F0 100%);
+    z-index: 2; }
+}
+
 
